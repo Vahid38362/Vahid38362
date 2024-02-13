@@ -274,9 +274,9 @@ echo:
 echo %line%
 echo:
 if not defined _error (
-call :_color %Green% "IDM Activation - Trial is successfully reset in the registry."
+call :_color %Green% "IDM Activation - This File successfully in the registry."
 ) else (
-call :_color %Red% "Failed to completely reset IDM Activation - Trial."
+call :_color %Red% "Failed to completely This File To IDM Activation.."
 )
 
 goto done
