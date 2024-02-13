@@ -213,7 +213,7 @@ if %_erl%==6 exit /b
 if %_erl%==5 goto homepage
 if %_erl%==4 call :readme&goto MainMenu
 if %_erl%==3 call :_tog_Firewall&goto MainMenu
-if %_erl%==2 goto _reset
+if %_erl%==2 goto _registery
 if %_erl%==1 goto _activate
 goto :MainMenu
 
@@ -274,7 +274,7 @@ echo:
 echo %line%
 echo:
 if not defined _error (
-call :_color %Green% "IDM Activation - Trial is successfully reset in the registry."
+call :_color %Green% "IDM Activation - File is successfully reset in the registry."
 ) else (
 call :_color %Red% "Failed to completely reset IDM Activation - Trial."
 )
