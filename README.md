@@ -213,7 +213,7 @@ if %_erl%==6 exit /b
 if %_erl%==5 goto homepage
 if %_erl%==4 call :readme&goto MainMenu
 if %_erl%==3 call :_tog_Firewall&goto MainMenu
-if %_erl%==2 goto _registery
+if %_erl%==2 goto _registry
 if %_erl%==1 goto _activate
 goto :MainMenu
 
